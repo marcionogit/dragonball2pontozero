@@ -1,0 +1,21 @@
+header, footer{
+    background-color: #111111; 
+    color: #f7f7f7;
+}
+
+header a, footer a{
+    color: #f7f7f7;
+}
+
+.bg-laranja-goku{
+    background-color: #FF944D;
+    box-shadow: inset 0px 60px #ffffff;
+}
+
+.bg-laranja-escuro{
+    background-color: #D64700;
+    color: #f7f7f7;
+    padding: 100px 0;
+}
+
+

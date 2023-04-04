@@ -1,0 +1,53 @@
+.titulo-ini{
+    font-size: 3rem;
+    text-align: center;
+    padding: 100px 0 60px 0 ;
+    color: #000D44;
+}
+
+#goku-png{
+    margin-bottom: -13px;
+}
+
+.bg-laranja-escuro .container p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sagas-home{
+    padding: 160px 0;
+}
+
+.sagas-home h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.sagas-escolha{
+    display: flex;
+    max-width: 1400px;
+    gap: 40px;
+    padding: 0 80px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.sagas-escolha img{
+    height: 400px;
+}
+
+.sagas-escolha li{
+    min-width: 500px;
+    padding-bottom: 20px;
+}
+
+.sagas-escolha h3{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #111111;
+}
