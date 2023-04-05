@@ -18,4 +18,9 @@ header a, footer a{
     padding: 100px 0;
 }
 
+@media(max-width:650px){
+    .bg-laranja-escuro{
 
+        padding: 60px 0;
+    }
+}
