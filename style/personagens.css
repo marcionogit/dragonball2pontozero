@@ -1,0 +1,45 @@
+#titulo-personagens{
+    text-align: center;
+    padding: 140px 0 60px 0;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.personagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.personagens li{
+    padding: 12px 0;
+    text-align: center;
+}
+
+.personagens h3{
+    font-size: 2.5rem;
+    color: #000D44;
+}
+
+.personagens img{
+    max-width: 350px;
+}
+
+@media(max-width:600px){
+
+    #titulo-personagens{
+        font-size: 3rem;
+    }
+
+    .personagens li p{
+        font-size: 0.80rem;
+    }
+}
+
+@media(max-width:500px){
+    .personagens{
+        grid-template-columns: 1fr;
+    }
+}
