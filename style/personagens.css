@@ -25,6 +25,8 @@
 
 .personagens img{
     max-width: 350px;
+    
+    
 }
 
 @media(max-width:600px){
@@ -41,5 +43,9 @@
 @media(max-width:500px){
     .personagens{
         grid-template-columns: 1fr;
+    }
+
+    .personagens img{
+        grid-row: 2;
     }
 }
