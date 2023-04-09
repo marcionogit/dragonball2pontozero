@@ -2,14 +2,14 @@
     font-size: 3rem;
     text-align: center;
     color: #111111;
-    padding: 60px 0;
+    padding: 120px 0 60px 0;
 }
 
 .classico-subtitulo{
     font-size: 2rem;
     text-align: center;
     color: #565656;
-    padding-bottom: 20px;
+    
 }
 
 .classico{
@@ -17,12 +17,16 @@
     font-weight: 500;
     color: #111111;
     max-width: 50ch;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 100px 20px 20px 20px;
+    display: block;
+    margin: auto;
 }
 
 
 .classico-img{
     max-width: 600px;
-    margin-bottom: 120px;
+    padding:  20px 0px;
+    margin: 0 auto;
+    border-radius: 4px;
 }
+
