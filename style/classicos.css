@@ -1,3 +1,9 @@
+#bg-monte-pauz{
+    background-image: url(../img/classico/Mount_Paozu-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+
 .classico-titulo{
     font-size: 3rem;
     text-align: center;
@@ -25,6 +31,12 @@
 .classico-img{
     border-radius: 4px;
     padding-bottom: 80px;
+}
+
+.classico-container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
 }
 
 .classico-container-img{

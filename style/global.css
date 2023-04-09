@@ -46,7 +46,7 @@ li{
 .cabecalho-nav a::after{
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     width: 0px;
     background-color: #ffffff;
     transition: 0.3s;
