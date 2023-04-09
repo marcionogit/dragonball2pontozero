@@ -1,22 +1,26 @@
+/* 
+efeito paralax desktop
 #bg-monte-pauz{
     background-image: url(../img/classico/Mount_Paozu-bg.jpg);
     background-attachment: fixed;
     background-repeat: round;
-}
+} */
 
 .classico-titulo{
     font-size: 3rem;
     text-align: center;
     color: #111111;
-    padding: 120px 0 60px 0;
+    padding: 120px 0 0 0;
 }
 
 .classico-subtitulo{
     font-size: 2rem;
     text-align: center;
     color: #565656;
+    padding-top: 60px;
     
 }
+
 
 .classico{
     font-size: 1.15rem;
