@@ -6,14 +6,14 @@ efeito paralax desktop
     background-repeat: round;
 } */
 
-.classico-titulo{
+.sagas-titulo{
     font-size: 3rem;
     text-align: center;
     color: #111111;
     padding: 120px 0 0 0;
 }
 
-.classico-subtitulo{
+.sagas-subtitulo{
     font-size: 2rem;
     text-align: center;
     color: #565656;
@@ -22,7 +22,7 @@ efeito paralax desktop
 }
 
 
-.classico{
+.sagas{
     font-size: 1.15rem;
     font-weight: 500;
     color: #111111;
@@ -32,18 +32,18 @@ efeito paralax desktop
     margin: auto;
 }
 
-.classico-img{
+.sagas-img{
     border-radius: 4px;
     padding-bottom: 80px;
 }
 
-.classico-container{
+.sagas-container{
     max-width: 900px;
     margin: 0 auto;
     background-color: #fff;
 }
 
-.classico-container-img{
+.sagas-container-img{
     padding: 40px 20px;
     border-bottom: 1px solid #dbdbdb;
     max-width: 600px;
@@ -52,16 +52,16 @@ efeito paralax desktop
 
 @media(max-width:450px){
 
-    .classico-titulo{
+    .sagas-titulo{
         padding: 80px 0 60px 0;
         font-size: 2.5rem;
     }
 
-    .classico-subtitulo{
+    .sagas-subtitulo{
         font-size: 1.5rem;
     }
 
-    .classico{
+    .sagas{
         padding: 60px 20px 20px 20px;
         font-size: 0.80rem;
     }
