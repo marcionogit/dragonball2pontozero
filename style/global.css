@@ -77,10 +77,18 @@ footer .container{
 
 footer li{
     padding: 4px 0;
+    white-space: nowrap;
 }
 
 footer a:hover{
     color: #c0c0c0;
+}
+
+.footer-redes{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap:  10px;
+    align-items: center;
 }
 
 footer p{
@@ -97,9 +105,15 @@ footer p{
     .container{
         max-width: 650px;
     }
+
+    .footer-redes{
+   
+
+        gap: 6px;
+    }
 }
 
-@media(max-width:750px){
+@media(max-width:800px){
     .cabecalho-nav{
         gap: 80px;
     }
@@ -177,5 +191,10 @@ footer p{
     footer .container{
         gap: 40px;
         text-align: center;
+    }
+
+    .footer-redes{
+        grid-template-columns: 20px 10ch;
+        justify-content: center;
     }
 }
