@@ -1,8 +1,13 @@
-#titulo-personagens{
+
+  #titulo-personagens{
     text-align: center;
     padding: 140px 0 60px 0;
     font-size: 4rem;
     font-weight: 700;
+}
+
+#personagens{
+    overflow-x: hidden;
 }
 
 .personagens{
@@ -11,6 +16,7 @@
     padding: 60px 20px;
     gap: 40px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .personagens li{
@@ -27,7 +33,7 @@
     max-width: 350px;
 }
 
-.direita{
+/* .direita{
     animation: direita-para-esquerda 0.5s ease-in;
 }
 
@@ -60,8 +66,8 @@
         transform: translateX(0);
         opacity: 1;
     }
-    
-}
+     
+}*/
 @media(max-width:600px){
 
     #titulo-personagens{
