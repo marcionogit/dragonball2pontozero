@@ -15,8 +15,8 @@
     grid-template-columns: 1fr 1fr;
     padding: 60px 20px;
     gap: 40px;
-    align-items: center;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .personagens li{
@@ -32,6 +32,18 @@
 .personagens img{
     max-width: 350px;
 }
+
+[data-aos="left-marcio"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    background-color: green;
+    transform: translateX(100px);
+  } 
+[data-aos="left-marcio"].aos-animate {
+      opacity: 1;
+      transform: translateX(0);
+}
+  
 
 /* .direita{
     animation: direita-para-esquerda 0.5s ease-in;
@@ -91,5 +103,25 @@
 
     .personagens img{
         grid-row: 2;
+    }
+}
+@media screen and (max-width: 450px) {
+    [data-aos="left-marcio"]{
+        transform: translateX(30px);
+    }
+    [data-aos="left-marcio"].aos-animate {
+        transform: translateX(0px);
+    }
+}
+
+@media(max-width:400px){
+    [data-aos=fade-left]{
+        transform: translatex(-10px, 0, 0);
+        background-color: red;
+    }
+
+    [data-aos=fade-left].aos-animate{
+        transform: translatex(0px, 0, 0);
+        background-color: blue;
     }
 }
