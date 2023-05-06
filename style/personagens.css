@@ -1,21 +1,21 @@
-
-  #titulo-personagens{
+/* PRIMEIRO H1 DA PAGINA*/
+#titulo-personagens{
     text-align: center;
     padding: 140px 0 60px 0;
     font-size: 4rem;
     font-weight: 700;
 }
-
+/* id COLOCADO DO body PARA ADICIONAR (overflow-x: hidden) QUE NÃO DEIXA A PÁGINA FAZER SCROLL HORIZONTAL */
 #personagens{
     overflow-x: hidden;
 }
 
+/* GRID PARA DIVIDIR MEIO A MEIO IMAGENS E DESCRIÇÕES DOS PERSONAGENS */
 .personagens{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 60px 20px;
     gap: 40px;
-    box-sizing: border-box;
     align-items: center;
 }
 
@@ -24,19 +24,24 @@
     text-align: center;
 }
 
+/* NOME DOS PERSONAGENS */
 .personagens h3{
     font-size: 2.5rem;
     color: #000D44;
 }
 
+/* IMAGENS DOS PERSONAGENS*/
 .personagens img{
     max-width: 350px;
 }
 
+/* FERRAMENTA QUE CRIA ANIMAÇÕES SUAVES DE SCROLL E SLIDES (data-aos="fade-right"). 
+COM ESSA FERRAMENTA VOCÊ CONSEGUE FAZER SEUS PROPRIOS CODIGOS MODIFICANDO PEQUENOS PARAMÊTROS.
+PARA UTLIZAR FERRAMENTA TEM QUE SER ADICIONADO AO INDEX O LINK: <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+ PÁGINA DO REPOSITÓRIO: < https://github.com/michalsnik/aos > */
 [data-aos="left-marcio"] {
     opacity: 0;
     transition-property: transform, opacity;
-    background-color: green;
     transform: translateX(100px);
   } 
 [data-aos="left-marcio"].aos-animate {
@@ -44,44 +49,8 @@
       transform: translateX(0);
 }
   
-
-/* .direita{
-    animation: direita-para-esquerda 0.5s ease-in;
-}
-
-
-
-
-.esquerda{
-    animation: esquerda-para-direita 0.5s ease-in;
-}
-
-
-@keyframes direita-para-esquerda{
-    0%{
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-    
-}
-
-@keyframes esquerda-para-direita{
-    0%{
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
-     
-}*/
 @media(max-width:600px){
-
+    
     #titulo-personagens{
         font-size: 3rem;
     }
@@ -97,10 +66,12 @@
         font-size: 2.8rem;
     }
 
+/* DIMINUINDO O NUMERO DE COLUDAS DO GRID DE PERSONAGENS */
     .personagens{
         grid-template-columns: 1fr;
     }
 
+/* ALTERANDO AS IMAGENS PARA A SEGUNDA LINHA DO GRID PARA DAR CONTINUIDADE NO DESIGN DA PÁGINA */
     .personagens img{
         grid-row: 2;
     }
@@ -112,16 +83,43 @@
     [data-aos="left-marcio"].aos-animate {
         transform: translateX(0px);
     }
-}
 
-@media(max-width:400px){
-    [data-aos=fade-left]{
-        transform: translatex(-10px, 0, 0);
-        background-color: red;
-    }
-
-    [data-aos=fade-left].aos-animate{
-        transform: translatex(0px, 0, 0);
-        background-color: blue;
-    }
 }
+    /* 
+    AQUI EU FIZ O MEU PRÓPRIO SCROLL, MAS ELE NÃO SE COMPORTOU DA MANEIRA QUE EU ESTAVA QUERENDO, POR ISSO EU OPTEI PELA BIBLIOTECA.
+
+    .direita{
+        animation: direita-para-esquerda 0.5s ease-in;
+    }
+    
+    
+    
+    
+    .esquerda{
+        animation: esquerda-para-direita 0.5s ease-in;
+    }
+    
+    
+    @keyframes direita-para-esquerda{
+        0%{
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+        
+    }
+    
+    @keyframes esquerda-para-direita{
+        0%{
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+         
+    }*/

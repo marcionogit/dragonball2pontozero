@@ -1,4 +1,4 @@
-/* 
+/* A IDEIA INICIAL ERA DEIXAR IMAGENS COM EFEITO PARALAX NO FUNDO REPRESENTANDO CADA MOMENTO DE ACORDO COM O ARCO DA HISTÓRIA
 efeito paralax desktop
 #bg-monte-pauz{
     background-image: url(../img/classico/Mount_Paozu-bg.jpg);
@@ -6,6 +6,8 @@ efeito paralax desktop
     background-repeat: round;
 } */
 
+
+/* TITULOS INICIAIS DAS SAGAS*/
 .sagas-titulo{
     font-size: 3rem;
     text-align: center;
@@ -13,6 +15,7 @@ efeito paralax desktop
     padding: 120px 0 0 0;
 }
 
+/* SUBTITULOS*/
 .sagas-subtitulo{
     font-size: 2rem;
     text-align: center;
@@ -21,7 +24,14 @@ efeito paralax desktop
     
 }
 
+/* CONTAINER QUE DELIMITA TAMANHO DA PÁGINA */
+.sagas-container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
 
+/* PADDINGS E MARGINS DO CONTEÚDO DA PÁGINA */
 .sagas{
     font-size: 1.15rem;
     font-weight: 500;
@@ -32,17 +42,14 @@ efeito paralax desktop
     margin: auto;
 }
 
+
+/* CONFIGURAÇÕES DE DISTÂNCIA ENTRE IMAGEM E TEXTO */
 .sagas-img{
     border-radius: 4px;
     padding-bottom: 80px;
 }
 
-.sagas-container{
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
+/* ICONE DE DIVISÃO DE HISTÓRIA */
 .sagas-container-img{
     padding: 40px 20px;
     border-bottom: 1px solid #dbdbdb;
@@ -50,6 +57,8 @@ efeito paralax desktop
     margin: 0 auto;
 }
 
+
+/* RESPONSIVIDADE DAS PÁGINAS SAGAS */
 @media(max-width:450px){
 
     .sagas-titulo{

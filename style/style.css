@@ -1,14 +1,16 @@
+/* PÁGINAS DE ESTILOS GLOBAIS */
 @import url(../style/cores.css);
 @import url(../style/global.css);
-
-
-@import url(../style/home.css);
-@import url(../style/personagens.css);
 @import url(../style/sagas.css);
 
 
+/* ESTILOS EXPECIFICOS DE CADA PÁGINA HTML */
+@import url(../style/home.css);
+@import url(../style/personagens.css);
 
-@import url(../style/js.css);
+
+
+
 
 
 

@@ -1,3 +1,4 @@
+/* TITULO INICIAL DA HOME*/
 .titulo-ini{
     font-size: 3rem;
     text-align: center;
@@ -5,10 +6,18 @@
     color: #000D44;
 }
 
+/* POSICIONAMENTO DO PNG DO GOKU */
 #goku-png{
     margin-bottom: -13px;
 }
 
+.img img{
+    max-width: 600px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/* COMPORTAMENTO DOS PARÁGRAFOS DENTRO DO FUNDO LARANJA ESCURO DA HOME */
 .bg-laranja-escuro .container p{
     font-size: 1.2rem;
     line-height: 1.7rem;
@@ -16,10 +25,12 @@
     font-weight: 500;
 }
 
+/* PADDINGS DO CONTAINER DO SAGAS */
 .sagas-home{
     padding: 160px 0;
 }
 
+/* TITULO INTRODUÇÃO A SAGAS */
 .sagas-home h2{
     text-align: center;
     font-size: 3rem;
@@ -27,6 +38,7 @@
     margin-bottom: 120px;
 }
 
+/* SCROLL HORIZOTAL DO CONTAINER SAGAS */
 .sagas-escolha{
     display: flex;
     max-width: 1400px;
@@ -36,8 +48,11 @@
     overflow-x: auto;
 }
 
+/* ALTURA IMGS SAGAS*/
 .sagas-escolha img{
     height: 350px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
 }
 
 .sagas-escolha li{
@@ -45,6 +60,7 @@
     padding-bottom: 20px;
 }
 
+/* TITULOS DAS SAGAS */
 .sagas-escolha h3{
     padding: 20px;
     text-align: center;
@@ -52,6 +68,7 @@
     color: #111111;
 }
 
+/* CONFIGURAÇÕES DE RESPONSIVIDADE */
 @media(max-width:800px){
     .titulo-ini{
         font-size: 2.5rem;

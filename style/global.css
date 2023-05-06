@@ -1,34 +1,36 @@
+/* NESTE DOCUMENTO FICARÁ TODAS AS CONFIGURÇÕES DE ESTILOS GLOBAIS DE TODO O SITE */
+
+/* RESETANDO CONFIGURAÇÕES PADRÕES HTML*/
 body, h1, h2, h3, h4, p, ul, a, img{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
 
+/* TODAS AS IMAGENS TERÃO 100% DE LARGURA DO SEU CONTAINER*/
 img{
     width: 100%;
     display: block;
 }
 
-.img img{
-    max-width: 600px;
-    margin: 0 auto;
-    object-fit: cover;
-}
-
+/* TIRANDO SUBLINHADO PADRÃO DOS LINKS */
 a{
     text-decoration: none;
 }
 
+/* TIRANDO ESTILO PADRÃO DOS ITENS DAS LISTAS */
 li{
     list-style: none;
 }
 
+/* CONTAINER USADO PARA PADRONIZAR O TAMANHO DE ALGUNS ITENS QUE SERÃO USADOS POR TODO O SITE COMO : header, footer, div E ETC...*/
 .container{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
+/* ALINHANDO LINKS DO CABEÇALHO UM AO LADO AO OUTRO */
 .cabecalho-nav{
     display: flex;
     flex-direction: row;
@@ -37,12 +39,14 @@ li{
     justify-content: center;
 }
 
+/* CONFIGURAÇÕES DE ESTILO DOS LINKS DO CABEÇALHO*/
 .cabecalho-nav a{
     font-size: 1.5rem;
     font-weight: 500;
     display: inline-block;
 }
 
+/* DETALHE DE INTERAÇÃO DOS LINKS DO CABEÇALHO */
 .cabecalho-nav a::after{
     content: "";
     display: block;
@@ -56,19 +60,23 @@ li{
     width: 100%;
 }
 
+/* PADDINGS FOOTER*/
 footer{
     padding: 60px 20px;
 }
 
+/* TITULO PRINCIPAL DO FOOTER */
 footer h3{
     font-size: 1.5rem;
 }
 
+/* DESCRIÇÕES DOS LINKS DO FOOTER*/
 footer h4{
     padding: 24px 0;
     font-size: 1.25rem;
 }
 
+/* MODIFICAÇÃO DO CONTAINER PRINCIPAL PARA O FOOTER TRANSFORMANDO-O EM GRID COM TRÊS COLUNAS*/
 footer .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -80,10 +88,12 @@ footer li{
     white-space: nowrap;
 }
 
+/* INTERAÇÃO COM LINKS DO FOOTER */
 footer a:hover{
     color: #c0c0c0;
 }
 
+/* GRID FEITO PARA POSICIONAR OS SVGs DAS REDES SOCIAIS */
 .footer-redes{
     display: grid;
     grid-template-columns: 20px 1fr;
@@ -96,6 +106,8 @@ footer p{
     padding-top: 60px;
 }
 
+
+/* CONFIGURAÇÕES DE RESPONSIVIDADE */
 @media(max-width:910px){
 
     .cabecalho-nav a{
@@ -166,33 +178,20 @@ footer p{
 
 @media(max-width:500px){
     .cabecalho-nav{
-        gap: 20px;
-    }
-
-    .cabecalho-nav a {
-        font-size: 0.85rem;
-    }
-
-    footer .container{
-        grid-template-columns: 1fr;
-    }
-    
-}
-
-@media(max-width:400px){
-    .cabecalho-nav{
         gap: 16px;
     }
 
     .cabecalho-nav a {
         font-size: 0.75rem;
     }
-    
+
+/* DIMINUINDO O NUMERO DE COLUNAS DO GRID DO FOOTER */
     footer .container{
+        grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
     }
-
+    
     .footer-redes{
         grid-template-columns: 20px 10ch;
         justify-content: center;
