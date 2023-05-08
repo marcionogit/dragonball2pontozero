@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, p, ul, a, img{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 /* TODAS AS IMAGENS TERÃO 100% DE LARGURA DO SEU CONTAINER*/
@@ -23,12 +24,19 @@ li{
     list-style: none;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 /* CONTAINER USADO PARA PADRONIZAR O TAMANHO DE ALGUNS ITENS QUE SERÃO USADOS POR TODO O SITE COMO : header, footer, div E ETC...*/
 .container{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 /* ALINHANDO LINKS DO CABEÇALHO UM AO LADO AO OUTRO */
 .cabecalho-nav{
@@ -59,6 +67,7 @@ li{
 .cabecalho-nav a:hover::after{
     width: 100%;
 }
+
 
 /* PADDINGS FOOTER*/
 footer{
