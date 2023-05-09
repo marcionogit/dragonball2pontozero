@@ -137,8 +137,6 @@ footer p{
     }
 
     .footer-redes{
-   
-
         gap: 6px;
     }
 }
@@ -200,13 +198,13 @@ footer p{
 }
 
 @media(max-width:500px){
-    .cabecalho-nav img{
-        width: 30px;
-    }
-
+    
     .cabecalho-nav{
         gap: 16px;
-        padding: 0;
+        padding: 8px;
+    }
+    .cabecalho-nav img{
+        width: 30px;
     }
 
     .cabecalho-nav a {

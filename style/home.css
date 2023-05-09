@@ -135,6 +135,10 @@
 }
 
 @media(max-width:400px){
+    #cabecalho-home{
+        padding:  4px;
+    }
+
     .titulo-ini{
         font-size: 1.3rem;
         padding: 40px 0 20px 0 ;
