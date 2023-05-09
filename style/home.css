@@ -1,4 +1,9 @@
+#cabecalho-home{
+    padding: 14px 0;
+}
+
 /* TITULO INICIAL DA HOME*/
+
 .titulo-ini{
     font-size: 3rem;
     text-align: center;

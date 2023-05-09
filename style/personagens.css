@@ -1,5 +1,41 @@
+#personagens-clique{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+#icone img{
+ width: 24px;
+}
+
+#personagens-clique img:hover{
+    transform: rotate(200grad);
+    transition: 0.5s;
+}
+
+
+
+#personagens_hamburguer{
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    flex-direction: column;
+    margin-top: 18px;
+    border-radius:0 0 10px 10px;
+    
+}
+
+#personagens_hamburguer a{
+    margin-bottom: 12px;
+    border-top: 0.1px solid #ffffff13;
+    padding: 10px 10px 0 10px;
+}
+
+
+
 /* PRIMEIRO H1 DA PAGINA*/
-#titulo-personagens{
+.titulo-personagens{
     text-align: center;
     padding: 140px 0 60px 0;
     font-size: 4rem;
@@ -48,9 +84,15 @@ PARA UTLIZAR FERRAMENTA TEM QUE SER ADICIONADO AO INDEX O LINK: <link rel="style
       opacity: 1;
       transform: translateX(0);
 }
+@media(max-width:910px){
+    #personagens_hamburguer{
+        top: 20px;}
+}
   
-@media(max-width:600px){
+@media(max-width:650px){
     
+    #personagens_hamburguer{
+        top: 14px;}
     #titulo-personagens{
         font-size: 3rem;
     }
@@ -58,9 +100,16 @@ PARA UTLIZAR FERRAMENTA TEM QUE SER ADICIONADO AO INDEX O LINK: <link rel="style
     .personagens li p{
         font-size: 0.80rem;
     }
+
+    #icone img{
+        width: 16px;
+       }
 }
 
 @media(max-width:500px){
+    #personagens_hamburguer{
+        top: 4px;}
+
     #titulo-personagens{
         padding: 80px 0 0 0;
         font-size: 2.8rem;
@@ -83,6 +132,10 @@ PARA UTLIZAR FERRAMENTA TEM QUE SER ADICIONADO AO INDEX O LINK: <link rel="style
     [data-aos="left-marcio"].aos-animate {
         transform: translateX(0px);
     }
+
+    #icone img{
+        width: 12px;
+       }
 
 }
     /* 

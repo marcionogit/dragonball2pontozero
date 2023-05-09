@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Personagens</title>
 </head>
+
 <body id="personagens">
 
     <div>
@@ -20,33 +22,49 @@
         <nav class="container">
             <ul class="cabecalho-nav">
                 <li>
-                    <a href="./index.html">HOME</a>
+                    <a href="./index.html"><img src="./img/icones/maisOitoMil.png" alt=""></img></a>
                 </li>
                 <li>
                     <a href="#personagens">INICIO</a>
                 </li>
-                <li>
-                    <a href="#">JOGOS</a>
+                <li id="personagens-clique" onclick="cliqueMenu()">
+                    <span id="icone">
+                        <img src="./img/icones/Vector.svg" alt="" srcset="">
+                    </span>
+                    <div>
+                        <a href="#" >PERSONAGENS</a>
+                        <nav id="personagens_hamburguer">
+                            <a href="#principais">PRINCIPAIS</a>
+                            <a href="#secundarios">SECUNDARIOS</a>
+                            <a href="#viloes">VILÕES</a>
+                        </nav>
+                    </div>
                 </li>
                 <li>
-                    <a href="#">CURIOSIDADE</a>
+                    <a href="#">SAGAS</a>
                 </li>
             </ul>
         </nav>
     </header>
-    
-   
-    <main class="container">
-        <h1 id="titulo-personagens">PRINCIPAIS</h1>
 
-        <section class="personagens" >
+
+    <main class="container">
+        <h1 id="principais" class="titulo-personagens">PRINCIPAIS</h1>
+
+        
+        <section class="personagens">
             <ul>
-                <li >
+                <li>
                     <h3 data-aos="fade-right">Goku</h3>
                 </li>
-                <li >
+                <li>
                     <p data-aos="fade-right">
-                        Goku é o protagonista do anime e um dos guerreiros mais poderoso do universo, pertencente a raça guerreira chamada <strong>Saiyajins</strong>, ele foi enviado a Terra com o objetivo de destruir suas formas de vida e prepará-la para ser vendida no mercado negro intergaláctico. Ao chegar aqui, ainda criança, Goku sofre um acidente e perde a memória. Após seu acidente toda raiva e selvageria do rapaz é perdida restando no lugar apenas bondade e um amor incontrolável por artes marciais. Goku tem um grande carisma e um coração puro.
+                        Goku é o protagonista do anime e um dos guerreiros mais poderoso do universo, pertencente a raça
+                        guerreira chamada <strong>Saiyajins</strong>, ele foi enviado a Terra com o objetivo de destruir
+                        suas formas de vida e prepará-la para ser vendida no mercado negro intergaláctico. Ao chegar
+                        aqui, ainda criança, Goku sofre um acidente e perde a memória. Após seu acidente toda raiva e
+                        selvageria do rapaz é perdida restando no lugar apenas bondade e um amor incontrolável por artes
+                        marciais. Goku tem um grande carisma e um coração puro.
                     </p>
                 </li>
             </ul>
@@ -54,15 +72,20 @@
         </section>
 
         <section class="personagens ">
-            <img src="./img/Personagens/vegeta-personagens.jpg" alt="img-personagem-vegeta" data-aos="fade-right"  data-aos-offset="100">
+            <img src="./img/Personagens/vegeta-personagens.jpg" alt="img-personagem-vegeta" data-aos="fade-right"
+                data-aos-offset="100">
             <ul>
-                <li >
-                    <h3 data-aos="left-marcio"  data-aos-offset="100">Vegeta</h3>
+                <li>
+                    <h3 data-aos="left-marcio" data-aos-offset="100">Vegeta</h3>
                 </li>
-                <li >
-                    <p data-aos="left-marcio"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
+                <li>
+                    <p data-aos="left-marcio" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
                     </p>
                 </li>
             </ul>
@@ -71,113 +94,151 @@
         <section class="personagens ">
             <ul>
                 <li>
-                    <h3  data-aos="fade-right"  data-aos-offset="100">Gohan</h3>
+                    <h3 data-aos="fade-right" data-aos-offset="100">Gohan</h3>
                 </li>
-                <li >
-                    <p data-aos="fade-right"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
+                <li>
+                    <p data-aos="fade-right" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
                     </p>
                 </li>
             </ul>
-            <img src="./img/Personagens/gohan-personagens.jpg" alt="img-personagem-gohan" data-aos="left-marcio"  data-aos-offset="100">
+            <img src="./img/Personagens/gohan-personagens.jpg" alt="img-personagem-gohan" data-aos="left-marcio"
+                data-aos-offset="100">
         </section>
 
         <section class="personagens ">
-            <img src="./img/Personagens/trunks-personagens.jpg" alt="img-personagem-trunks" data-aos="fade-right"  data-aos-offset="100">
-            <ul>
-                <li >
-                    <h3 data-aos="left-marcio"  data-aos-offset="100">Trunks</h3>
-                </li>
-                <li >
-                    <p data-aos="left-marcio"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
-                    </p>
-                </li>
-            </ul>
-        </section>
-
-        <section class="personagens "> 
-            <ul>
-                <li >
-                    <h3 data-aos="fade-right"  data-aos-offset="100">Kuririn</h3>
-                </li>
-                <li >
-                    <p data-aos="fade-right"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
-                    </p>
-                </li>
-            </ul>
-            <img src="./img/Personagens/kuririn-personagens.jpg" alt="img-personagem-kuririn" data-aos="left-marcio"  data-aos-offset="100">
-        </section>
-
-        <section class="personagens ">
-            <img src="./img/Personagens/piccolo-personagens.jpg" alt="img-personagem-piccolo" data-aos="fade-right"  data-aos-offset="100">
-            <ul>
-                <li >
-                    <h3 data-aos="left-marcio"  data-aos-offset="100">Piccolo</h3>
-                </li>
-                <li >
-                    <p data-aos="left-marcio"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
-                    </p>
-                </li>
-            </ul>
-        </section>
-
-        <section class="personagens "> 
+            <img src="./img/Personagens/trunks-personagens.jpg" alt="img-personagem-trunks" data-aos="fade-right"
+                data-aos-offset="100">
             <ul>
                 <li>
-                    <h3 data-aos="fade-right"  data-aos-offset="100">Bulma</h3>
+                    <h3 data-aos="left-marcio" data-aos-offset="100">Trunks</h3>
                 </li>
-                <li >
-                    <p data-aos="fade-right"  data-aos-offset="100"> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
+                <li>
+                    <p data-aos="left-marcio" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
                     </p>
                 </li>
             </ul>
-            <img src="./img/Personagens/bulma-personagens.jpg" alt="img-personagem-bulma" data-aos="left-marcio"  data-aos-offset="100">
         </section>
 
         <section class="personagens ">
-            <img src="./img/Personagens/tenshinhan-personagens.jpg" alt="img-personagem-tenshinham" data-aos="fade-right"  data-aos-offset="100">
             <ul>
-                <li >
-                    <h3 data-aos="left-marcio"  data-aos-offset="100">Tenshinhan</h3>
+                <li>
+                    <h3 data-aos="fade-right" data-aos-offset="100">Kuririn</h3>
                 </li>
-                <li >
-                    <p data-aos="left-marcio"  data-aos-offset="100"> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
+                <li>
+                    <p data-aos="fade-right" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
+                    </p>
+                </li>
+            </ul>
+            <img src="./img/Personagens/kuririn-personagens.jpg" alt="img-personagem-kuririn" data-aos="left-marcio"
+                data-aos-offset="100">
+        </section>
+
+        <section class="personagens ">
+            <img src="./img/Personagens/piccolo-personagens.jpg" alt="img-personagem-piccolo" data-aos="fade-right"
+                data-aos-offset="100">
+            <ul>
+                <li>
+                    <h3 data-aos="left-marcio" data-aos-offset="100">Piccolo</h3>
+                </li>
+                <li>
+                    <p data-aos="left-marcio" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
                     </p>
                 </li>
             </ul>
         </section>
-        
-        <section class="personagens"> 
+
+        <section class="personagens ">
             <ul>
-                <li >
-                    <h3 data-aos="fade-right"  data-aos-offset="100">Yamcha</h3>
+                <li>
+                    <h3 data-aos="fade-right" data-aos-offset="100">Bulma</h3>
                 </li>
-                <li >
-                    <p data-aos="fade-right"  data-aos-offset="100">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto repudiandae alias possimus ea ipsum perferendis quam?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae earum illo reiciendis rem vero provident?
+                <li>
+                    <p data-aos="fade-right" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
                     </p>
                 </li>
             </ul>
-            <img src="./img/Personagens/yamcha-personagens.jpg" alt="img-personagem-yamcha" data-aos="left-marcio"  data-aos-offset="100">
+            <img src="./img/Personagens/bulma-personagens.jpg" alt="img-personagem-bulma" data-aos="left-marcio"
+                data-aos-offset="100">
         </section>
+
+        <section class="personagens ">
+            <img src="./img/Personagens/tenshinhan-personagens.jpg" alt="img-personagem-tenshinham"
+                data-aos="fade-right" data-aos-offset="100">
+            <ul>
+                <li>
+                    <h3 data-aos="left-marcio" data-aos-offset="100">Tenshinhan</h3>
+                </li>
+                <li>
+                    <p data-aos="left-marcio" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagens">
+            <ul>
+                <li>
+                    <h3 data-aos="fade-right" data-aos-offset="100">Yamcha</h3>
+                </li>
+                <li>
+                    <p data-aos="fade-right" data-aos-offset="100">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ab sequi reiciendis, deserunt
+                        ducimus doloremque voluptatum officiis aut necessitatibus, corporis praesentium dolor iusto
+                        repudiandae alias possimus ea ipsum perferendis quam?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quos sequi laborum
+                        recusandae est aspernatur tenetur fuga consequatur culpa quasi maxime magnam expedita, beatae
+                        earum illo reiciendis rem vero provident?
+                    </p>
+                </li>
+            </ul>
+            <img src="./img/Personagens/yamcha-personagens.jpg" alt="img-personagem-yamcha" data-aos="left-marcio"
+                data-aos-offset="100">
+        </section>
+
+        <h1 id="secundarios" class="titulo-personagens">SECUNDÁRIOS</h1>
+        <h1 id="viloes" class="titulo-personagens">VILÕES</h1>
 
     </main>
 
 
 
-    <footer >
+    <footer>
         <h3 class="container">CONTATOS</h3>
 
         <div class="container">
@@ -197,22 +258,26 @@
                     <li><a href="./sagas/majin.html">MAJIN BOO</a></li>
                 </ul>
             </div>
-            
+
             <div>
                 <h4>REDES SOCIAIS</h4>
                 <ul>
                     <li class="footer-redes">
                         <img src="./img/icones/whats.svg" alt="icone-whatsapp">
-                        <a href="#">(13) 99999-9999</a></li>
+                        <a href="#">(13) 99999-9999</a>
+                    </li>
                     <li class="footer-redes">
                         <img src="./img/icones/instagram.svg" alt="icone-instagram">
-                        <a href="https://www.instagram.com/marcinhocdds/">@marcinhocdds</a></li>
+                        <a href="https://www.instagram.com/marcinhocdds/">@marcinhocdds</a>
+                    </li>
                     <li class="footer-redes">
                         <img src="./img/icones/github.svg" alt="icone-github">
-                        <a href="https://github.com/marcionogit">marcionogit</a></li>
+                        <a href="https://github.com/marcionogit">marcionogit</a>
+                    </li>
                     <li class="footer-redes">
                         <img src="./img/icones/linkedin.svg" alt="icone-linkedin">
-                        <a href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/">marcionogit</a></li>
+                        <a href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/">marcionogit</a>
+                    </li>
                 </ul>
             </div>
 
@@ -223,8 +288,9 @@
     <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 
 </body>
+
 </html>

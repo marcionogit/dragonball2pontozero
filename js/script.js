@@ -1,5 +1,15 @@
 
-// --------------------------------------------------------
+// CLIQUE MENU
+function cliqueMenu(){
+    if(personagens_hamburguer.style.display == 'flex'){
+        personagens_hamburguer.style.display = "none";
+    } else {
+        personagens_hamburguer.style.display = "flex";
+    }        
+}
+
+
+//--------------------------------------------------------
 
 // SCROLL SUAVE
 
