@@ -8,7 +8,15 @@ efeito paralax desktop
 
 
 /* TITULOS INICIAIS DAS SAGAS*/
+.saga-bg-img{
+    margin-top: -1px;
+    margin-bottom: -2px;
+    position: relative;
+}
 
+.saga-bg-img a{
+    text-align: center;
+}
 
 
 .sagas-titulo{
