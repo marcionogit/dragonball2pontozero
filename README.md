@@ -16,12 +16,12 @@ habilidades e compartilhar minha paixão com outros fãs.
 A DragonBall Funpage 2.0 tem como objetivo fornecer aos fãs da franquia um espaço para explorar e desfrutar 
 de conteúdos relacionados a Dragon Ball. Aqui, você encontrará:
 
-- Informações completas: Detalhes sobre personagens, histórias e sagas que fizeram de Dragon Ball um fenômeno mundial. 
+- Informações completas: Detalhes sobre personagens, histórias e sagas que fizeram de Dragon Ball um fenômeno. 
 - Curiosidades e segredos: Descubra fatos interessantes e segredos bem guardados sobre a criação da série e seus personagens. 
 - Galeria de imagens: Uma seleção de imagens épicas dos momentos mais memoráveis de Dragon Ball.
--  Artigos e análises: Análises aprofundadas de arcos de histórias, poderes dos personagens e teorias sobre o universo Dragon Ball. Interação com a comunidade: Comentários, discussões e a possibilidade de compartilhar sua própria paixão por Dragon Ball. 
 
-## Versão anteriores:
+
+## Versões anteriores:
 - [DragonBall Funpage](https://dragonmarcio.netlify.app/)
 
 
@@ -30,7 +30,7 @@ Essa Funpage foi desenvolvida inteiramente por mim, desde o design até a implem
 
 Para o design do site, utilizei a ferramenta Figma. Com o **Figma**, pude criar layouts personalizados, definir a estrutura das páginas e garantir uma aparência visualmente atrativa para os visitantes.
 </br></br>
-![](https://github.com/marcionogit/dragonball2pontozero/blob/main/figma/figma2.png)
+![img-projeto-figma](https://github.com/marcionogit/dragonball2pontozero/blob/main/figma/figma2.png)
 
 No que diz respeito às tecnologias de código, utilizei as seguintes:
 
@@ -46,8 +46,11 @@ Foi um desafio emocionante desenvolver esse projeto sozinho, mas também gratifi
 Espero que você aproveite explorar a DragonBall Funpage 2.0, criada com muito carinho e dedicação!
 
 ## Como contribuir
-Como fã dedicado de Dragon Ball, valorizo a contribuição de outros entusiastas para tornar essa Funpage ainda melhor. </br>
+Como fã dedicado de Dragon Ball, valorizo a contribuição de outros entusiastas para tornar essa Funpage ainda melhor. 
 Então sinta-se vontade para compartilhar ideias e feedbacks. 
+
+## ![icone-linkedin](https://marcionogit.github.io/dragonball2pontozero/img/icones/linkedin.svg) [Linkedin](https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/)
+## ![icone-instagram](https://marcionogit.github.io/dragonball2pontozero/img/icones/instagram.svg) [Instagram](https://www.instagram.com/marcinhocdds/)
 
 
 ## Agradecimentos
