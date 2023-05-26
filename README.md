@@ -1,4 +1,4 @@
-### Página ainda em desenvolvimento!
+### Projeto ainda em desenvolvimento!
 # [Link para visualizar o projeto](https://marcionogit.github.io/dragonball2pontozero/)
 
 
@@ -29,16 +29,17 @@ de conteúdos relacionados a Dragon Ball. Aqui, você encontrará:
 Essa Funpage foi desenvolvida inteiramente por mim, desde o design até a implementação do código. Dediquei tempo e esforço para trazer uma experiência agradável aos fãs de Dragon Ball.
 
 Para o design do site, utilizei a ferramenta Figma. Com o **Figma**, pude criar layouts personalizados, definir a estrutura das páginas e garantir uma aparência visualmente atrativa para os visitantes.
+</br></br>
+![](https://github.com/marcionogit/dragonball2pontozero/blob/main/figma/figma2.png)
 
 No que diz respeito às tecnologias de código, utilizei as seguintes:
 
--**HTML5**: A linguagem de marcação principal para estruturar o conteúdo do site de forma semântica e acessível.
+- **HTML5**: A linguagem de marcação principal para estruturar o conteúdo do site de forma semântica e acessível.
 
--**CSS3**: Utilizei o CSS3 para estilizar os elementos do site, definindo cores, fontes, layouts responsivos e animações, a fim de proporcionar uma experiência visualmente agradável.
+- **CSS3**: Utilizei o CSS3 para estilizar os elementos do site, definindo cores, fontes, layouts responsivos e animações, a fim de proporcionar uma experiência visualmente agradável.
 
--**JavaScript**: Com o JavaScript, tornei o site interativo e dinâmico. Utilizei recursos do JS para criar funcionalidades como animações de transição e manipulação de eventos.
+- **JavaScript**: Com o JavaScript, tornei o site interativo e dinâmico. Utilizei recursos do JS para criar funcionalidades como animações de transição e manipulação de eventos.
 
-Essas tecnologias foram escolhidas por sua ampla compatibilidade e suporte em diferentes navegadores, garantindo que a Funpage seja acessível para a maioria dos usuários.
 
 Foi um desafio emocionante desenvolver esse projeto sozinho, mas também gratificante, pois pude aprimorar minhas habilidades de design e codificação enquanto expressava minha paixão pela franquia.
 
