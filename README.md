@@ -1,7 +1,6 @@
 ### Projeto ainda em desenvolvimento!
 # [Link para visualizar o projeto](https://marcionogit.github.io/dragonball2pontozero/)
 
-
 # DragonBall Funpage 2.0
 
 Olá! Bem-vindo à versão **2.0 da DragonBall Funpage**, um site dedicado à incrível franquia Dragon Ball.
